@@ -1,0 +1,421 @@
+body{
+	font-family:"JetBrains Mono", monospace;
+	margin:0;
+	background-color:#222631;
+}
+header{
+	text-align:center;
+	font-size:15px;
+	padding:25px 15px 25px 15px;
+	width:850px;
+	margin:0 auto;
+    background-image:url("Vector.png");
+    background-size:cover;
+	display:flex;
+	justify-content:space-evenly;
+}
+header a {
+	color:white;
+	text-decoration:none;
+}
+main{
+	
+}
+footer{
+	background-image:url("podval.png");
+	background-size:100%;
+	height:850px;
+	padding-top:111px;
+	color:white;
+}
+.up {
+	border-radius:15px;
+	background-color:#D3D3D3;
+	padding:15px;
+	z-index:1000;
+	position:fixed;
+	left:95%;
+	top:90%;
+	color:black
+}
+.start img {
+	width:100%;
+}
+.free {
+	background-color:#2A2A2A;
+	padding-top:40px;
+}
+.free h2 {
+	color:white;
+	text-align:center;
+	font-size:40px;
+}
+.free div {
+	display:flex;
+}
+.free img {
+	width:33%;
+}
+.free p {
+	font-size:40px;
+	background-color:#E9E9E9;
+	padding: 40px 40px 40px 40px;
+	text-align:center;
+	margin-bottom:0;
+	margin-top:0;
+}
+.team {
+	display:flex;
+	background-color:black;
+	color:white;
+	height:888px;
+	margin:70px 40px 40px 40px;
+	padding:80px;
+}
+.team img {
+	height:1000px;
+	position:relative;
+	bottom:50px;
+}
+.team div {
+	height:700px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.team p {
+	font-size: 30px;
+	margin-top:300px;
+	text-align:center;
+	width:700px;
+}
+.team h2 {
+	font-size: 45px;
+	text-align:center;
+}
+.kardio {
+	display:flex;
+	
+}
+.kardio div {
+	padding:40px;
+	margin:55px;
+}
+.kardio h2 {
+	font-size:40px;
+}
+.kardio article {
+	background:linear-gradient(#DAC6BE,#A99993,#746A65);
+	padding:65px;
+}
+.kardio div img {
+	margin:55px
+}
+.kardio p {
+	font-size:25px;
+}
+.spa h2 {
+	padding:55px;
+	background-color:#E8E2E2;
+	text-align:center;
+	margin:0px;
+}
+.spa div {
+	display:flex;
+	text-align:center;
+}
+.kartinki {
+	width:50%;
+}
+.text {
+	width:25%;
+}
+.spa p {
+	font-size:30px;
+	padding: 40px 40px 40px 40px;
+	text-align:center;
+}
+.spa h2, h3 {
+	font-size:40px;
+}
+.spa li {
+	font-size:30px;
+}
+.massage {
+	background-color:#D3D3D3;
+}
+.massage ul {
+	list-style:url("oil.png");
+	margin-left:30px;
+	text-align:left;
+}
+.banya {
+	background-color:#D3D3D3;
+	padding:25px 25px 25px 25px;
+}
+.banya ul {
+	list-style:url("par.png");
+	margin-left:30px;
+	text-align:left;
+}
+.zag {
+	text-align:center;
+	font-size:40px;
+	background-color:#E8E2E2;
+	padding:40px;
+	margin:0px;
+}
+.bar {
+	display:flex;
+	justify-content:space-evenly;
+	background-color:#D3D3D3;
+}
+.bar img {
+	width:32%;
+}
+.bar div {
+	width:32%;
+}
+.bar div img {
+	width:100%;
+}
+.bar p {
+	background-color:white;
+	font-size:25px;
+}
+footer h2 {
+	font-size:40px;
+	text-align:center;
+}
+.contacts {
+	display:flex;
+	justify-content:space-evenly;
+	text-align:center;
+}
+footer p {
+	font-size:25px;
+}
+.club {
+	width:50%;
+	margin-left:35%;
+}
+footer article {
+	background-color:#9E4140;
+	padding:20px;
+	margin-bottom:50px;
+	color:white;
+	border-radius:15px;
+}
+table {
+	border-spacing:30px;
+	text-align:center;
+	margin:0 auto;
+}
+th {
+	background-color:#E4D8FD;
+}
+td {
+	background-color:#E6FFFC;
+}
+th,td {
+	border-radius:15px;
+	height:100px;
+	width:200px;
+}
+.grafic {
+	text-align:center;
+	background-color:#D9D9D9;
+	width:230px;
+	padding:20px;
+	border-radius:15px;
+	margin:0 auto;
+	margin-top:15px;
+}
+.workout img {
+	width:100%;	
+}
+.workout p {
+	width:33%;
+	position:relative;
+	left:60%;
+	bottom:300px;
+	background-color:rgba(255,255,255,0.6);
+	border-radius:15px;
+	padding:20px;
+}
+.tariff h2 {
+	color:white;
+}
+.tariff ul {
+	color:white;
+	padding-left:5%;
+}
+.fon {
+	background-color:#050608;
+}
+.text_tariff {
+	margin-left:160px;
+	font-size:44px;
+	color:white;
+}
+.tariff {
+	display:flex;
+	justify-content:space-evenly;
+	margin-bottom:40px;
+}
+.tariff h2 {
+	text-align:center;
+}
+.tariff article {
+	/*background-image:linear-gradient(#256493,2%,#0E1012);*/
+	border-radius:15px;
+	text-align:center;
+	width:20%;
+	background-color:#0E1012;
+}
+.tariff li {
+	 padding:10px;
+	 list-style-type:none;
+	 background-color:#050608;
+	 width:90%;
+	 margin-top:2px;
+	 border-radius:15px;
+}
+.tariff button {
+	background-color:#0E1012;
+	color:white;
+	width:90%;
+	height:50px;
+	border-radius:30px;
+	font-size:17px;
+	border:1px solid gray;
+}
+.tariff p {
+	font-size:35px;
+	color:white;
+}
+.gray {
+	opacity:0.5;
+}
+.fon main {
+	padding:30px;
+}
+.gray img {
+	width:20px;
+	float:right;
+	margin-right:5px;
+}
+.info img {
+	width:7px;
+	float:right;
+	margin-right:5px;
+	border:1px solid gray;
+	border-radius:100px;
+    padding:5px 7px;
+}
+.rhombus {
+	display:flex;
+	justify-content:center;
+	padding:50px;
+	height:700px;
+	width:1300px;
+	margin:auto;
+}
+.rhombus article {
+	background-image:url("lavandos rhombus.png");
+	width:315px;
+	height:315px;
+	background-position:center;
+	background-size:100%;
+	text-align:center;
+	align-items:center;
+	display:flex;
+    flex-direction:column;
+    justify-content:center;
+	padding:25px;
+    box-sizing:border-box;
+}
+.akcii {
+	display:flex;
+	justify-content:space-evenly;
+}
+.akcii article {
+	background-color:black;
+	width:20%;
+	border-radius:15px;
+	background-image:linear-gradient(#7E99AE,#344C63,#13161B);
+	color:white;
+	text-align:center;
+	margin-bottom:50px;
+}
+
+.school {
+    position:relative;
+    top:354px;
+    left:38%;
+}
+.friend {
+    position:relative;
+    top:175px;
+    
+}
+.sun {
+    position:relative;
+    right:10%;
+    bottom:10px;
+}
+.familybusiness {
+    position:relative;
+    top:175px;
+    right:20%;
+    
+}
+.map {
+	margin:50px auto 50px auto;
+	display:flex;
+	justify-content:center;
+}
+ form h2 {
+	font-size:30px;
+}
+form {
+	background-color:#809AB0;
+	width:25%;
+	margin-right:auto;
+	margin-left:auto;
+	border-radius:15px;
+	padding:70px;
+	margin-bottom:35px;
+}
+form h3 {
+	font-size:22px;
+}
+input {
+	width:65%;
+	height:45px;
+	border-radius:15px;
+	border:15px solid white;
+	font-size:12px;
+}
+button {
+	margin-top:30px;
+	border:15px solid #1D242D;
+	border-radius:15px;
+	background-color:#1D242D;
+	color:white;
+	font-size:14px;
+}
+form div input {
+	text-align:left;
+	height:20px;
+	width:20px;
+}
+textarea {
+	width:90%;
+	height:200px;
+}
+select,option {
+	border-radius:15px;
+	height:30px;
+}
+
+
